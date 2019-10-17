@@ -1,0 +1,315 @@
+body {
+	
+	
+	 background-image: url('image7.jpg');
+	 background-repeat: no-repeat;
+     background-size: 100% 100%;
+	 background-attachment: fixed;
+	 margin: 0px;
+	 padding: 0px;
+	
+	
+}
+
+body>div:nth-child(1)
+{
+   
+	
+    overflow:auto;
+	position: sticky;
+	top: 0px;
+	z-index: 1;	
+	background-color: rgba(0,0,0,0.4);
+	
+
+}
+
+body>div:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.logo{
+    width: 220px;
+    height: 60px;
+    overflow: visible;
+    
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.logo a {
+	
+	display;inline-block;
+	color:white;
+	font-size:200%;
+	text-decoration:none;
+	padding: 10px, 0px, 10px, 0px;
+	
+    
+	}
+
+ 
+.logo a:hover{
+    color: rgb(255, 71, 26);
+}
+
+
+#bkbtn {
+    height: 50px;
+    width: 170px;
+    padding: 10px 2px;
+    
+    border: 2px solid white;
+    background-color: white;
+    font-size: 110%;
+    float: right;
+    margin: 2px 5px;
+}
+
+#bkbtn:hover {
+    color: rgb(255, 71, 26);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#navbar {
+    margin: 0px;
+    padding: 10px 2px;
+    height: 60px;
+    float:left;
+}
+
+#navbar>ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    height: 60px;
+}
+
+#navbar>ul>li {
+	
+	/*maybe done*/
+	
+	float:left;
+	height:60px;
+	text-align:center;
+	display:inline-block;
+   
+}
+
+#navbar>ul>li>a {
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+   
+	min-width:100px;
+	max-width:180px;
+	display:inline-block
+    height:30px;
+    
+    padding: 10px 5px;
+}
+
+#navbar>ul>li>a.active {
+    color:rgb(255, 71, 26);
+    border-bottom: 1px solid rgb(255, 71, 26);
+}
+
+#navbar>ul>li>a:not(.active):hover {
+	
+	 
+	color:rgb(255, 71, 26);
+    border-bottom: 1px solid rgb(255, 71, 26);
+	
+	
+}
+
+#headersec {
+    width: 100%;
+
+    background-image: url('image4.jpg');
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#headersec #intro{
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 50px;
+    
+    color:#ffcc00;
+	letter-spacing:2px;
+	
+}
+
+#section1{
+    background-image: url('image1.jpg');
+    background-position: center center;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+
+}
+
+#desc1{
+	
+	display: inline-block;
+	width: 50%;
+	text-align:center;
+	
+}
+
+#desc1 p{
+    color: #3333ff;
+    letter-spacing: 2px;
+}
+
+#desc1 h4, #desc1 h1{
+    color: rgb(255, 71, 26);
+}
+
+#section2{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#desc2{
+    padding: 200px;
+    color: #ffcc00;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#section3{
+   
+	background-color: white;
+}
+
+#desc3{
+    padding: 50px;
+    letter-spacing:4px;
+}
+
+#desc3>h3{
+    color:rgb(255, 71, 26);
+    text-align:center;
+	
+}
+
+#desc3 p{
+    color:#3333ff;
+    text-align:center;
+}
+
+#menutable{
+    width:100%;
+    box-shadow: 0px -6px 6px 2px rgb(0,0,0,0.2);
+}
+
+#menutable th{
+    height: 50px;
+}
+
+#menutable th.curmenu{
+    background-color: rgb(255, 71, 26);
+}
+
+#menutable th:not(.curmenu):hover{
+    background-color: rgba(0,0,255,0.5);
+}
+
+#items{
+    
+	overflow:scroll;
+	height: 300px;
+	box-shadow: 0px 6px 6px 2px;
+    
+	
+}
+
+#itemtable{
+    width: 100%;
+}
+
+#itemtable tr{
+    height: 40px;
+}
+
+#itemtable td{
+    
+	border:1px solid;
+	color:blue;
+	border-collapse:collapse;
+	
+	
+	
+}
+
+#itemtable tr:hover{
+    background-color: #ffa366;
+}
+
+#section4{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#desc4{
+   
+	padding: 100px;
+	letter-spacing: 2px;
+	
+	
+}
+
+#desc4 h4, #desc4 h1{
+    color:#ffcc00;
+    text-align:center;
+}
+
+#desc4 p{
+    color: #66ffff;
+    text-align:center;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.95);
+    width: 100%;
+    overflow:hidden;
+}
+
+footer>div:nth-child(1){
+    padding: 5%;
+    width:30%;
+    color: floralwhite;
+    display:inline-block;
+    vertical-align: top;
+}
+
+footer>div:nth-child(2){
+    padding: 4%;
+    width:50%;
+    display:inline-block;
+}
+
+#branch-1{
+    
+	float:left;
+	width:50%;
+}
+
+#branch-2{
+   
+
+	float:right;
+	width:50%;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: white;
+}
